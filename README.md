@@ -100,25 +100,3 @@ Click View Attendance to see the attendance records.
 6. Log Out
 Click the Logout button to log out of the system.
 
-File Structure
-
-attendance-management-system/
-├── app.py                  # Flask application
-├── requirements.txt        # Python dependencies
-├── .env                    # Environment variables
-├── README.md               # Project documentation
-├── static/
-│   ├── css/
-│   │   └── styles.css      # CSS styles
-│   ├── js/
-│   │   ├── script.js       # Main JavaScript file
-│   │   ├── login.js        # Login functionality
-│   │   └── signup.js       # Signup functionality
-│   └── images/             # Folder for storing face images
-├── templates/
-│   ├── index.html          # Main page
-│   ├── login.html          # Login page
-│   └── signup.html         # Signup page
-├── face_encodings.pkl      # Face encodings (generated at runtime)
-├── attendance.csv          # Attendance records (generated at runtime)
-└── credentials.csv         # User credentials (generated at runtime)
